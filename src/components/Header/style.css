@@ -31,11 +31,30 @@ header {
     background-color: #fff;
     width: 5%;
     text-align: center;
-    padding: 15px;
+    padding: 10px 15px;
     color: #000;
     border-radius: 4px;
 }
 
 .favoritos:hover {
     background-color: #eeeeee;
+}
+
+
+@media (max-width: 1477px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .favoritos {
+        width: auto;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+}
+
+@media(max-width:1303px) {
+    .logo img {
+        display: none;
+    }
 }
